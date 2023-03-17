@@ -1,0 +1,244 @@
+@font-face {
+    font-family: face;
+    src: url(../../assets/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body.dark {
+    background-color: rgb(30, 32, 42);
+    font-family: face;
+}
+
+body.light {
+    background-color: rgb(255, 255, 255);
+    font-family: face;
+}
+
+body.light .cardsPageView:hover,
+body.light .topSocialBoxeFacebook:hover,
+body.light .topSocialBoxeTwitter:hover,
+body.light .topSocialBoxeInsta:hover,
+body.light .topSocialBoxeYoutube:hover {
+    background-color: rgb(201, 205, 217);
+    cursor: pointer;
+}
+
+.topBoxdark {
+    background-color: hsl(232, 19%, 15%);
+    height: 300px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.topBoxlight {
+    background-color: rgb(245, 247, 255);
+    height: 300px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.followerCount {
+    font-weight: 700;
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.fontColor {
+    color: hsl(0, 0%, 100%);
+}
+
+.fontColorTwo {
+    color: hsl(228, 34%, 66%);
+}
+
+.wordFollow {
+    color: hsl(228, 34%, 66%);
+    font-weight: 200;
+    letter-spacing: 6px;
+}
+
+.users {
+    padding-left: 10px;
+}
+
+.upInFollowers,
+.userpadd {
+    padding-top: 20px;
+}
+
+.topSocialBoxeFacebook {
+    height: 275px;
+    width: 285px;
+    border-top: 5px solid;
+    border-color: hsl(208, 92%, 53%);
+    border-radius: 5px;
+}
+
+.topSocialBoxeTwitter {
+    height: 275px;
+    width: 285px;
+    border-top: 5px solid;
+    border-color: hsl(203, 89%, 53%);
+    border-radius: 5px;
+}
+
+.topSocialBoxeInsta {
+    height: 275px;
+    width: 285px;
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+    border-radius: 5px;
+}
+
+.topSocialBoxeYoutube {
+    height: 275px;
+    width: 285px;
+    border-top: 5px solid;
+    border-color: hsl(348, 97%, 39%);
+    border-radius: 5px;
+}
+
+.cardsPageView:hover,
+.topSocialBoxeYoutube:hover,
+.topSocialBoxeInsta:hover,
+.topSocialBoxeTwitter:hover,
+.topSocialBoxeFacebook:hover {
+    background-color: hsl(229, 29%, 29%);
+    cursor: pointer;
+}
+
+.topTxt {
+    padding-top: 50px;
+}
+
+.upArrowTxtColor {
+    color: hsl(163, 72%, 41%);
+    margin-left: 5px;
+}
+
+.downArrowTxtColor {
+    color: hsl(356, 69%, 56%);
+    margin-left: 5px;
+}
+
+.cardsPageView {
+    height: 150px;
+    width: 285px;
+    border-radius: 5px;
+}
+
+.pageView {
+    color: hsl(228, 34%, 66%);
+}
+
+.cardSpace {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardColordark {
+    background-color: hsl(228, 28%, 20%);
+}
+
+.cardColorlight {
+    background-color: hsl(227, 47%, 96%);
+}
+
+.bottomMargin {
+    margin-top: 2rem;
+}
+
+.darkModeTxt {
+    color: hsl(228, 34%, 66%);
+    display: flex;
+    align-items: end;
+    margin-bottom: 1.5rem;
+    padding-right: 1rem;
+}
+
+.littleCardpadding {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.spaceBetweenWordAndLogo {
+    margin-right: 6.5rem;
+}
+
+.topSpaceNumbers {
+    margin-top: 3rem;
+}
+
+.littleCardFontWeight {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.hrdark {
+    display: none;
+    background-color: hsl(227, 47%, 96%);
+    height:1px;
+    width:320px;
+}
+.hrlight {
+    display: none;
+    background-color: hsl(0, 0%, 0%);
+    height:1px;
+    width:320px;
+}
+
+.smallCardPad {
+    margin-right: 0rem;
+}
+
+.textlight {
+    color: hsl(228, 12%, 44%);
+}
+
+.textdark {
+    color: hsl(228, 34%, 66%);
+}
+
+.textTwolight {
+    color: hsl(230, 17%, 14%);
+}
+
+.textTwodark {
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 800px) and (min-width: 325px) {
+    .hrdark {
+        display: block;
+        background-color: hsl(228, 34%, 66%);
+        height:1px;
+        width:320px;
+        margin:2rem;
+    }
+    .hrlight {
+        display: block;
+        background-color: hsl(228, 12%, 44%);
+        height:1px;
+        width:320px;
+        margin:2rem;
+    }
+
+    .topSocialBoxeYoutube,
+    .topSocialBoxeInsta,
+    .topSocialBoxeTwitter,
+    .topSocialBoxeFacebook {
+        margin-bottom: 2rem;
+        width: 320px;
+    }
+
+    .cardsPageView {
+        margin-bottom: 1rem;
+        width: 320px;
+    }
+
+    .bottomMargin {
+        margin-top: 0rem;
+    }
+
+    .smallCardPad {
+        padding-right: 2.1rem;
+    }
+}

@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+//03-17-23
+//Peer view by: Jacob Dekok
+//Code looks great and very organized. Everything looks great on the site, and it works great
 
-function App() {
+import './App.css';
+import SocialMedia from './components/socialmediaComponent/socialmedia';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SocialMedia />
     </div>
   );
 }
-
-export default App;
